@@ -1,6 +1,6 @@
 # Site settings
 title: DALI 2019 - Data, Learning and Inference
-permalink: "/:categories/:title.html"
+permalink: "/:title.html"
 # Include image banner file name below
 banner: banner.jpg
 banner_title: Image cc BY-SA 3.0
@@ -87,7 +87,7 @@ twitter_username:
 github_username:  dalimeeting
 github:
   edit: true
-  repository: dalimeeting.github.io
+  repository: dali2019b
 future: true
 
 # Build settings
