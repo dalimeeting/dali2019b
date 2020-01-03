@@ -78,7 +78,7 @@ conference:
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/dali2019b" # the subpath of your site, e.g. /blog/
 url: "http://dalimeeting.org" # the base hostname & protocol for your site
 youtube:
   height: 315
