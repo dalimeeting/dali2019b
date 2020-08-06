@@ -1,9 +1,26 @@
 # Site settings
-title: DALI 2019 - Data, Learning and Inference
+title: DALI 2019b - Data, Learning and Inference
 permalink: "/:title.html"
 # Include image banner file name below
 banner: banner.jpg
 banner_title: Image cc BY-SA 3.0
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: dali
+
+baseurl: "/dali2019b" # the subpath of your site, e.g. /blog/
+url: "http://dalimeeting.org" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  dalimeeting
+author:
+  name: DALI
+  
+ghub:
+  edit: true
+  repository: dali2019b
 
 # Registration fees and URL go here.
 registration:
@@ -19,6 +36,20 @@ booking:
 conference:
   draft: false
   hide_tentative: true
+  hide_tentative: true
+  instance: 6th
+  name: Data Learning and Inference
+  short_name: DALI
+  full_name: Data Learning and Inference
+  venue: Kursaal
+  venue_url: https://www.kursaal.eus/en/
+  location: San Sebastian, Spain
+  year: 2019
+  dates:
+  - 2019-09-03
+  - 2019-09-04
+  - 2019-09-05
+  - 2019-09-06
   hosts:
   general:
   - given: Neil D.
@@ -29,8 +60,6 @@ conference:
     family: Schölkopf
     url: "http://ei.is.tuebingen.mpg.de/person/bs"
     institute: MPI for Intelligent Systems (Tübingen) and Amazon
-  chair:
-
   assistants:
   - given: Matthias
     family: Bauer
@@ -61,34 +90,16 @@ conference:
     institute: Amazon and University of Sheffield
   - given: Bernhard
     family: Schölkopf
+    position: Chair
     url: "http://ei.is.tuebingen.mpg.de/person/bs"
     institute: MPI for Intelligent Systems (Tübingen)
-  name: DALI 2019 - Data Learning and Inference
-  shortname: DALI
-  venue: Kursaal
-  venue_url: https://www.kursaal.eus/en/
-  location: San Sebastian, Spain
-  year: 2019
-  month: September
-  dates:
-  - 2019-09-03
-  - 2019-09-04
-  - 2019-09-05
-  - 2019-09-06
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
-baseurl: "/dali2019b" # the subpath of your site, e.g. /blog/
-url: "http://dalimeeting.org" # the base hostname & protocol for your site
+
 youtube:
   height: 315
   width: 560
-twitter_username:
-github_username:  dalimeeting
-github:
-  edit: true
-  repository: dali2019b
-future: true
 
 # Build settings
 markdown: kramdown

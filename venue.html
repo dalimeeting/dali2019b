@@ -1,8 +1,11 @@
 ---
-layout: venue
+layout: default
 title: Venue
 weight: 2
 ---
+
+The {{ site.conference.name }} conference will take place in the {%if site.conference.venue_url %}<a href="{{site.conference.venue_url}}">{%endif%}{{site.conference.venue }}{%if site.conference.venue_url %}</a>{%endif%}, {{ site.conference.location }}.
+From {{ site.conference.dates[0] | date: "%A %B, %-d %Y" }} to  {{ site.conference.dates.last | date: "%A %B, %-d %Y" }}.
 
 <h1>Details</h1>
 
