@@ -38,6 +38,7 @@ conference:
   hide_tentative: true
   hide_tentative: true
   instance: 6th
+  styling: Workshop on
   name: Data Learning and Inference
   short_name: DALI
   full_name: Data Learning and Inference
@@ -51,48 +52,52 @@ conference:
   - 2019-09-05
   - 2019-09-06
   hosts:
-  general:
-  - given: Neil D.
-    family: Lawrence
-    url: "http://inverseprobability.com"
-    institute: Amazon and University of Sheffield
-  - given: Bernhard
-    family: Schölkopf
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI for Intelligent Systems (Tübingen) and Amazon
-  assistants:
-  - given: Matthias
-    family: Bauer
-    url: https://ei.is.tuebingen.mpg.de/person/bauer
-    institute: MPI for Intelligent Systems (Tübingen)
-  - given: Matthias
-    family: Hohmann
-    url: https://ei.is.tuebingen.mpg.de/person/mhohmann
-    institute: MPI for Intelligent Systems (Tübingen)
-  - given: Maria
-    family: Püschel
-    institute: MPI for Intelligent Systems (Tübingen)
-  - given: Diana
-    family: Rebmann
-    institute: DeepMind (Montreal)
-  steering:
-  - given: Zoubin
-    family: Ghaharamani
-    url: "http://mlg.eng.cam.ac.uk/zoubin/"
-    institute: University of Cambridge and Uber
-  - given: Thomas
-    family: Hofmann
-    url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
-    institute: ETH Zurich
-  - given: Neil D.
-    family: Lawrence
-    url: "http://inverseprobability.com"
-    institute: Amazon and University of Sheffield
-  - given: Bernhard
-    family: Schölkopf
-    position: Chair
-    url: "http://ei.is.tuebingen.mpg.de/person/bs"
-    institute: MPI for Intelligent Systems (Tübingen)
+  chairs:
+  - type: General Chairs
+    people:
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: Amazon and University of Sheffield
+    - given: Bernhard
+      family: Schölkopf
+      url: "http://ei.is.tuebingen.mpg.de/person/bs"
+      institute: MPI for Intelligent Systems (Tübingen) and Amazon
+  - type: Assistants
+    people:
+    - given: Matthias
+      family: Bauer
+      url: https://ei.is.tuebingen.mpg.de/person/bauer
+      institute: MPI for Intelligent Systems (Tübingen)
+    - given: Matthias
+      family: Hohmann
+      url: https://ei.is.tuebingen.mpg.de/person/mhohmann
+      institute: MPI for Intelligent Systems (Tübingen)
+    - given: Maria
+      family: Püschel
+      institute: MPI for Intelligent Systems (Tübingen)
+    - given: Diana
+      family: Rebmann
+      institute: DeepMind (Montreal)
+  - type: Steering Committee
+    people:
+    - given: Zoubin
+      family: Ghaharamani
+      url: "http://mlg.eng.cam.ac.uk/zoubin/"
+      institute: University of Cambridge
+    - given: Thomas
+      family: Hofmann
+      url: "http://www.da.inf.ethz.ch/people/ThomasHofmann/"
+      institute: ETH Zurich
+    - given: Neil D.
+      family: Lawrence
+      url: "http://inverseprobability.com"
+      institute: University of Sheffield
+    - given: Bernhard
+      family: Schölkopf
+      positon: Chair
+      url: "http://ei.is.tuebingen.mpg.de/person/bs"
+      institute: MPI Tübingen
   sponsors:
   - name: Max-Planck-ETH Center for Learning Systems
     url: "http://learning-systems.org/"
