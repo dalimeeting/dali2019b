@@ -8,7 +8,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+remote_theme: dalimeeting/jekyll-theme
 style: dali
 
 baseurl: "/dali2019b" # the subpath of your site, e.g. /blog/
